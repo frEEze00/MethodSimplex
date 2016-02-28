@@ -4,5 +4,6 @@
     {
         void Calculate();
         double Answer { get; }
+        void GetDataFromFile(string path);
     }
 }
