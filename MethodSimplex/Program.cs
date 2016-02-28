@@ -22,7 +22,7 @@ namespace MethodSimplex
             simplexMethod.GetDataFromFile(@"Input Data\test.txt");
             simplexMethod.Calculate();
             Console.WriteLine("Answer: {0}", simplexMethod.Answer.ToString());
-            Console.ReadKey();
+            //Console.ReadKey();
         }
     }
 }

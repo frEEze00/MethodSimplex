@@ -76,8 +76,7 @@ namespace MethodSimplex {
             var file = new StreamReader(path);
             string str;
             while ((str = file.ReadLine()) != null) {
-                var values = str.Split(' ');
-                var tempList = values.Select(Convert.ToDouble).ToList();
+                var tempList = str.Split(' ').Select(Convert.ToDouble).ToList();
                 data.Add(tempList);
             }
             this.matrix = data;
